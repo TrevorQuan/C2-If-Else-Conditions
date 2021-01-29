@@ -31,3 +31,11 @@ if(is_Sleepy == True):
 if(is_Sleepy == False):
   print("wow you're well rested")
 
+# Ask the user for a number
+# Tell the user if their number is even or odd
+
+numEO = int(input("Give me a number: "))
+if(numEO % 2 == 0):
+  print("Your number is even")
+else:
+  print("Your number is odd")
